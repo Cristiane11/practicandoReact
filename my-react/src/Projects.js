@@ -1,7 +1,7 @@
 import react from 'react';
 import bikeYellow from './Photos';
 
-export const Projects = [
+export const projects = [
     {
       id: 1,
       name: 'Robot',
