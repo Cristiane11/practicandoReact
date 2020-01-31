@@ -1,5 +1,5 @@
 import react from 'react';
-import bikeYellow from './Photos';
+//import bikeYellow from './Photos';
 
 export const projects = [
     {

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import Project from './Projects';
+import {projects} from './projects';
 import ProjectList from './ProjectList';
 import './App.css';
 
