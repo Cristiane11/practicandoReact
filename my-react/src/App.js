@@ -4,6 +4,14 @@ import ProjectList from './ProjectList';
 import './App.css';
 
 class App extends Component {
+  constructor(){
+    super()
+    this.state={
+      project:projects,
+    projectField:''
+    }
+    
+  }
   render() {
     return
     (
