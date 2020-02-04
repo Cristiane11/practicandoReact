@@ -4,8 +4,6 @@ const ProjectCard=({name,skills,photo, link,id})=>{
     return(
         <div>
             <div >
-            
-            
                 <h2 className="">{name}</h2>
                 <h3>{photo}</h3>
                 <p className="">{link}</p>

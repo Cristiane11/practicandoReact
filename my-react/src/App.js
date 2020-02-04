@@ -1,15 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import {projects} from './projects';
 import ProjectList from './ProjectList';
 import './App.css';
 
-function App() {
-  return (
+class App extends Component {
+  render() {
+    return
+    (
     <div className="App">
+      <h1>Projects</h1>
      <ProjectList projects={projects}/> 
     </div>
-  );
+    )
+  };
 }
 
 export default App;
