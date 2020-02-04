@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchProject=()=>{
     return(<div>
-        <input placeholder="">
+        <input  type ='search'placeholder="Search for skills">
         </input>
     </div>)
 }

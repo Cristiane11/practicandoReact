@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {projects} from './projects';
 import ProjectList from './ProjectList';
+import SearchProject from './SearchProject';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
     super()
     this.state={
       project:projects,
-    projectField:''
+      projectField:''
     }
     
   }
@@ -17,6 +18,7 @@ class App extends Component {
     (
     <div className="App">
       <h1>Projects</h1>
+      <SearchProject/>
      <ProjectList projects={projects}/> 
     </div>
     )
