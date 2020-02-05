@@ -10,21 +10,20 @@ import './App.css';
     constructor(){
       super()
       this.state={
-        project:projects,
+        projects:projects,
         projectField:''
       }
     }
   
     render() {
-    return
-    (
+    return (
     <div className="App">
       <h1>Projects</h1>
       <SearchProject/>
-     <ProjectList projects={projects}/> 
+     <ProjectList projects={this.state.projects}/> 
     </div>
-    )
-  };
+    );
+  }
 }
 
 export default App;
