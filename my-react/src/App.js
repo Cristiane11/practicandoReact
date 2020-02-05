@@ -14,12 +14,14 @@ import './App.css';
         projectField:''
       }
     }
-  
+  onSearchProject(event){
+    console.log(event);
+  }
     render() {
     return (
     <div className="App">
       <h1>Projects</h1>
-      <SearchProject/>
+      <SearchProject searchChange={this.onSearchProject}/>
      <ProjectList projects={this.state.projects}/> 
     </div>
     );
