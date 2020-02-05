@@ -4,16 +4,18 @@ import ProjectList from './ProjectList';
 import SearchProject from './SearchProject';
 import './App.css';
 
-class App extends Component {
-  constructor(){
-    super()
-    this.state={
-      project:projects,
-      projectField:''
+
+  
+  class App extends Component {
+    constructor(){
+      super()
+      this.state={
+        project:projects,
+        projectField:''
+      }
     }
-    
-  }
-  render() {
+  
+    render() {
     return
     (
     <div className="App">
