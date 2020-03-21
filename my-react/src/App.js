@@ -15,7 +15,7 @@ import './App.css';
       }
     }
   onSearchProject(event){
-    console.log(event);
+    console.log(event.target.value);
   }
     render() {
     return (
