@@ -1,14 +1,11 @@
 import React from 'react';
 
-const ProjectCard=({photo,name,skills, link,id})=>{
+const ProjectCard=({image,name,skills, link})=>{
     return(
         <div>
-            <div >
-                <p>{photo}</p>
-                <h2 className="">{name}</h2>
-                <p className="">{link}</p>
-            
-        </div>
+            <p>{image}</p>
+            <h2>{name}</h2>
+            <a href={link}>Click to see it</a>
         </div>
     )
 }

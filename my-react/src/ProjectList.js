@@ -9,8 +9,7 @@ const ProjectList=({projects})=>{
             return(
             <ProjectCard 
             key={i}
-            id={projects[i].id}
-            photo={projects[i].photo}
+            image={projects[i].image}
             name={projects[i].name}
             link={projects[i].link}
             />
