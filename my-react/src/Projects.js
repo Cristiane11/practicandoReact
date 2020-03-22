@@ -1,4 +1,5 @@
 import react from 'react';
+import whiteFlower from './Photos';
 
 
 export const projects = [
@@ -6,7 +7,7 @@ export const projects = [
       id: 1,
       name: 'Robot',
       skills: 'React',
-      photo:'https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg',
+      photo:<img src={whiteFlower} width='300px'/>,
       link: 'www.yahoo.com'
     },
     {
