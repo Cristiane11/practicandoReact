@@ -10,8 +10,8 @@ const ProjectList=({projects})=>{
             <ProjectCard 
             key={i}
             id={projects[i].id}
-            name={projects[i].name}
             photo={projects[i].photo}
+            name={projects[i].name}
             link={projects[i].link}
             />
             );
