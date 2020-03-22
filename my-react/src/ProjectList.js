@@ -8,8 +8,8 @@ const ProjectList=({projects})=>{
             projects.map((user,i)=>{
             return(
             <ProjectCard 
-            key={i}
-            image={projects[i].image}
+            //image={projects[i].image}
+            key={projects[i].id}
             name={projects[i].name}
             link={projects[i].link}
             />
