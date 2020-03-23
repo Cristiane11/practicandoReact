@@ -14,15 +14,19 @@ import './App.css';
         projectField:''
       }
     }
-  onSearchProject(event){
-    console.log(event.target.value);
+  onSearchProject=(event)=>{
+    this.setState({projectField:event.target.value})
+ 
   }
     render() {
+      const filteredproject = this.state.projects.filter(projects=>{
+        return projects.name.toLowerCase().includes(this.state.projectField.toLowerCase());
+      })    
     return (
     <div className="App">
       <h1>Projects</h1>
       <SearchProject searchChange={this.onSearchProject}/>
-     <ProjectList projects={this.state.projects}/> 
+     <ProjectList projects={filteredproject}/> 
     </div>
     );
   }
